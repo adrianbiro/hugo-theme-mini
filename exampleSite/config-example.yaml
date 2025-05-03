@@ -2,7 +2,8 @@ baseURL: https://nodejh.github.io/hugo-theme-mini
 languageCode: en-us
 title: Hugo
 theme: hugo-theme-mini
-paginate: 3
+pagination:
+  pagerSize: 3
 
 # !!! exampleSite only, you may need to delete the line: `themesDir: ../../` 
 themesDir: ../../
@@ -14,23 +15,20 @@ permalinks:
 googleAnalytics: UA-123-45
 disqusShortname: nodejh
 
-
 markup:
   highlight:
     guessSyntax: true
     style: emacs
-
 
 social:
   github: https://github.com/nodejh
   twitter: https://twitter.com/nodejh
   stackoverflow: https://stackoverflow.com/users/4518882/nodejh
 
-
 params:
   author: nodejh
   bio: Software Engineer
   description: My Blog
-  enableRSS: true
+  enableRSS: false
   enableComments: true
   enableGoogleAnalytics: true
