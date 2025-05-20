@@ -8,6 +8,8 @@ pagination:
 # !!! exampleSite only, you may need to delete the line: `themesDir: ../../` 
 themesDir: ../../
 
+math: false
+
 hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
@@ -15,15 +17,17 @@ permalinks:
 googleAnalytics: UA-123-45
 disqusShortname: nodejh
 
+showToc: true
+
 markup:
   highlight:
     guessSyntax: true
     style: emacs
 
 social:
-  github: https://github.com/nodejh
-  twitter: https://twitter.com/nodejh
-  stackoverflow: https://stackoverflow.com/users/4518882/nodejh
+  github: https://github.com/adrianbiro
+  #twitter: https://twitter.com/nodejh
+  #stackoverflow: https://stackoverflow.com/users/4518882/nodejh
 
 params:
   author: nodejh
@@ -31,4 +35,5 @@ params:
   description: My Blog
   enableRSS: false
   enableComments: true
-  enableGoogleAnalytics: true
+  socialIcons:
+  - name: "rss"
